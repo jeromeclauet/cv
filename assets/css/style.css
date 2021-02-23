@@ -1,0 +1,56 @@
+.row {
+    margin: 0;
+}
+
+body {
+    background-image: url('../img/cvBackground.jpg');
+    color: white;
+}
+#competences,
+#expPro {
+    display: none;
+}
+
+.container,
+.banniere {
+    background-color: rgb(46, 46, 46, 0.85);
+}
+
+#work {
+    border-right: 0.15em solid white;
+    letter-spacing: 0.05em;
+    animation: blink 0.75s step-end infinite;
+}
+
+
+/* blink (clignotement) */
+
+@keyframes blink {
+    /* from to, tu va DE (from) À (to), ne pas donner de valeur a from done l'effet de clignotement.*/
+    from,
+    to {
+        border-color: transparent;
+    }
+    /* a 50% de l'animation, change la couleur de la bordure.*/
+    50% {
+        border-color: white;
+    }
+}
+
+
+/*.borderbot{
+    border-bottom: 1px solid white;
+  }*/
+
+.picture {
+    border-image: 1px solid white;
+}
+
+.ctn {
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+.respimg {
+    background-color: white;
+}
